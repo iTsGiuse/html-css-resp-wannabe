@@ -131,27 +131,16 @@ img {
 
  @media screen and (max-width: 768px) {
 
-    *,
-    *::before,
-    *::after {
-    margin: 0;
-    padding: 0;
-    max-width: 768px;
-    box-sizing: border-box;
-
-}
+    .container {
+         max-width: 100%;
+        }
 
  }
 
  @media screen and (max-width: 480px) {
 
-    *,
-    *::before,
-    *::after {
-        margin: 0;
-        padding: 0;
-        max-width: 480px;
-        box-sizing: border-box;
+    .container{
+        max-width: 100%;
     }
 
     .row{
@@ -173,6 +162,15 @@ img {
     .why-us .col-right {
         width: 100%;
     }
+
+    .why-us li {
+    margin-top: 2.5rem;
+    }
+    
+    .col img{
+        margin-top: 2rem;
+    }
+
  }
 
 
